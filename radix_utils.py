@@ -1,6 +1,6 @@
 import random
 
-class Binary(object):
+class Radix(object):
     def gen_randseq(self,b_len,radix):
         stra = ""
         for i in range(b_len):
