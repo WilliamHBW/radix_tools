@@ -50,10 +50,4 @@ class Binary(object):
         h.reverse()
         return "".join(h)
 
-bu = Binary()
-h_t = bu.b2h('111111')
-bu.gen_randfile("C:\\Users\\brog-hbw\\Desktop\\1.txt",16,5,'h')
-print(h_t)
-
-
 
